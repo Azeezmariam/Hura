@@ -4,6 +4,9 @@
 
 Hura is an AI-powered chatbot designed to assist tourists in Rwanda, particularly in Kigali. The chatbot answers real-time questions, helps with translations between Kinyarwanda and English, and provides contextual information on local customs and cultural etiquette. The chatbot can be accessed via WhatsApp or a lightweight mobile web interface.
 
+## Github Repository
+https://github.com/Azeezmariam/Hura.git
+
 ## How to Set Up the Environment and the Project
 
 ### 1. Clone the repository
