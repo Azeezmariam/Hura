@@ -1,6 +1,6 @@
 # Hura: AI-Powered Tourist Guide Chatbot
 
-https://github.com/Azeezmariam/Hurafigma_mockup/Landing. Page.png
+https://github.com/Azeezmariam/Hurafigma_mockup/Landing.png
 
 ## Description
 
