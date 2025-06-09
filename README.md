@@ -25,7 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## Designs
-The Figma design Mockup for the app innterface for the project can be found at: 
+The Figma design Mockup for the app innterface for the project can be found at: https://www.figma.com/design/UBjrOMFcQuq99DtR2V18hn/Hura?node-id=0-1&t=W9t0v6Hi9B5vN9dU-1
 
 ## Deployment Plan
 The deployment of the project will be done in a cloud environment (AWS/Vercel). 
