@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hura</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/f418c1c995.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fonts Style -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <!-- Favicon Links -->
+    <link rel="icon" href="./frontend/public/Favicon.png" type="image/png" />
+    <link rel="icon" href="./frontend/public/Favicon.ico" type="image/x-icon" />
+    <!-- Css Styling -->
+    <link rel="stylesheet" href="./frontend/src/css/main.css" />
+  </head>
+  <body>
+      <!-- Navigation -->
+      <nav class="navbar">
+        <div class="nav-container">
+          <a href="#"
+          ><img
+            src="./frontend/public/images/logo.png"
+            width="130px"
+            height="50px"
+            alt="logo"
+        /></a>
+
+          <ul class="nav-menu">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+            <li><a href="./frontend/src/html/auth/signup.html" class="btn btn-primary">Sign Up</a></li>
+            <li><a href="./frontend/src/html/auth/signup.html" class="btn btn-outline">Login</a></li>
+          </ul>
+
+          <button class="hamburger" onclick="toggleMenu()">☰</button>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1>Explore Rwanda with Hura, Your AI Travel Companion</h1>
+          <p>Ask questions. Get live help. Discover local culture.</p>
+          <div class="hero-buttons">
+            <a href="#" class="btn btn-primary btn-hero">Start Chatting</a>
+            <a href="#" class="btn btn-outline btn-hero">Try on WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="./frontend/public/images/hero.jpeg" alt="Beautiful Rwanda landscape with mountains"
+          />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section class="features" id="about">
+        <div class="features-container">
+          <h2>How Hura Helps</h2>
+          <h3 class="features-subtitle">Your AI Travel Companion</h3>
+          <p class="features-description">
+            Explore Rwanda with ease using Hura's multilingual AI chatbot.
+          </p>
+
+          <div class="features-grid">
+        <div class="feature-card">
+            <img
+              src="./frontend/public/images/icons/Chat.png"
+              width="25px"
+              alt="Chat Icon"
+            />
+            <h3>Multilingual Chat</h3>
+            <p>Talk in English, Kinyarwanda, or French</p>
+          </div>
+          <div class="feature-card">
+            <img
+            src="./frontend/public/images/icons/Cultural.png"
+              width="25px"
+              alt="Chat Icon"
+            />
+            <h3>Cultural Guidance</h3>
+            <p>Etiquette tips, greetings, dos and don'ts</p>
+          </div>
+          <div class="feature-card">
+            <img
+            src="./frontend/public/images/icons/location.png"
+              width="25px"
+              alt="Chat Icon"
+            />
+            <h3>Smart Travel Help</h3>
+            <p>Itineraries, places to visit, live info</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Chat Preview Section -->
+      <section class="chat-preview">
+        <h2>Live Chat Preview</h2>
+        <div class="chat-container">
+            <img  src="./frontend/public/images/preview.png" alt="Chat Preview">
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer" id="contact">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2><a href="#">About</a></h2>
+                <h2><a href="#">Contact</a></h2>
+                <h2><a href="#">Admin Login</a></h2>
+            </div>
+                <div class="social-icons">
+                     <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2024 Hura. All rights reserved.</p>
+        </div>
+      </footer>
+
+      <script src="./frontend/src/js/main.js"></script>
+  </body>
+</html>
