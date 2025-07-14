@@ -1,0 +1,29 @@
+# Core dependencies
+fastapi>=0.104.1
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+
+# LangChain and AI
+langchain>=0.1.0
+langchain-community>=0.0.10
+sentence-transformers>=2.2.2
+ctransformers>=0.2.27
+
+# Vector database
+chromadb>=0.4.18
+
+# Translation
+transformers>=4.36.0
+torch>=2.1.0
+tokenizers>=0.15.0
+
+# Translation improvements
+sentencepiece>=0.1.99  # Required for NLLB-200 model
+sacremoses>=0.0.53     # Recommended for better tokenization
+
+# API integrations
+requests>=2.31.0       # For Google Maps and Weather APIs
+
+# Twilio WhatsApp integration
+twilio>=8.10.0         # For WhatsApp messaging
+python-multipart>=0.0.6  # Required for Form data in webhooks
