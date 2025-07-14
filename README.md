@@ -9,6 +9,14 @@
 - **Web App:** [huraaichat.com](https://huraaichat.com)
 - **Contact:** info@huraaichat.com
 
+## Video Demo
+
+A 5-minute minimum video demo of the application is available to showcase the core functionalities:
+
+- How the user interacts with the system.
+- How the chatbot answers questions, translates text, and explains cultural norms.
+- [Video Demo Link](https://drive.google.com/drive/folders/1BQ2yAP6d5eGcBhZacCWorZS2LvhQQWA8?usp=sharing)
+
 ---
 
 ## ✨ Features (Web & WhatsApp)
