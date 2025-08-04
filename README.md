@@ -25,7 +25,7 @@ A 5-minute minimum video demo of the application is available to showcase the co
 - **Translation:** English ↔ Kinyarwanda, powered by NLLB-200.
 - **Location Services:** Find places, get directions, discover nearby spots.
 - **Weather Updates:** Get current weather and forecasts for Kigali.
-- **Unified Experience:** All features accessible via both the web app and WhatsApp.
+- **Unified Experience:** All features are accessible via both the web app and WhatsApp.
 
 ---
 
